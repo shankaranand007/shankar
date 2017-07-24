@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fourm</title>
+</head>
+<style type="text/css">
+	.login{
+		letter-spacing: 15px;
+		text-decoration: none;
+		font-size: 25px;
+		font-style: oblique;
+		font-weight: 500;
+		font-family: fantasy;
+		font-style:inherit;
+	}
+	.email{
+		padding: 10px;
+		border-radius: 10px;
+		margin-left: 10px;
+		width: 80%;
+		background-color: hsl(1% 20% 10%);
+
+	}
+	.pass{padding: 10px;
+		border-radius: 10px;
+
+width: 80%;	
+margin-left: 10px;
+}
+	.btn{padding: 10px;
+		border-radius: 10px;
+	width: 50%;
+	
+ 	}
+		
+	.frm{
+		display: block;
+		box-shadow: 3px;
+		border-style: outset; 
+		width: 460px;
+		background-color: #4fc3f7;
+		margin-top: 110px;
+	}	
+	.opt{
+		padding: 10px;
+		border-radius: 10px;
+
+width: 85%;	
+margin-left: 10px;
+
+	}
+	.txtarea{
+		width: 80%;
+		height:70px;
+		background-color: #e1f5fe;	
+	}
+	body{
+		background-color: #81c784;
+	}
+	
+	</style>
+<body>
+<center>
+<form class="frm" name="form" action="reg.php" method="POST" enctype="">
+<br>
+<header class="login"><b>LOGIN</b></header>
+<br>
+
+	<input class="email" type="text" value="" name="email" placeholder="Email">
+	<br>
+	<br>
+	<input class="pass" type="password" value="" name="pass" placeholder="Password">
+	<br>
+	<br>
+	<select class="opt" name="select"><option value="india">INDIA</option value="pak"><option>PAKISHTHAN</option><option value="usa">USA</option></select>
+	<br>
+	<br>
+	<input type="file" class="file" value="upload" name="file">
+	<br><br>
+	<textarea class="txtarea" name="txt">Message me</textarea>
+	<br><br>
+	<input class="btn" type="submit" value="submit" name="submit">
+	<br>
+	<br>
+	<br>
+</form></center>
+</body>
+
+</html>
